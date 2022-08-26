@@ -1,7 +1,7 @@
 # todo_sqflite
 _This project shows a simple todo application with implementation of BLOC + SQFLITE_.
 
-_Note: This is a quick and simple demo to show how to use BLOC together with SQFLITE in your Flutter Projects._
+_Note: This is a quick demo to show how to use BLOC together with SQFLITE in your Flutter Projects._
 
 Packages Used:
 - BLOC is used for state management.
