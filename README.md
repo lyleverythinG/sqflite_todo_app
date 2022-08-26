@@ -1,16 +1,11 @@
 # todo_sqflite
+_This project shows a simple todo application with implementation of BLOC + SQFLITE_.
 
-A new Flutter project.
+_Note: This is a quick and simple demo to show how to use BLOC together with SQFLITE in your Flutter Projects._
 
-## Getting Started
+Packages Used:
+- BLOC is used for state management.
+- SQFLITE is used for local  storage.(Local Database).
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Demo
+[https://user-images.githubusercontent.com/75658617/186592828-c464886c-222f-42f5-8ced-51baadfb232b.mp4](https://user-images.githubusercontent.com/75658617/186963723-cf3acd13-79c0-422f-a600-a2c834c3b95f.mp4)
