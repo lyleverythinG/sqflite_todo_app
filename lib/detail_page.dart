@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'bloc/todo_bloc.dart';
 import 'constants/constants.dart';
 import 'models/todo_model.dart';
+import 'widgets/custom_text.dart';
 
 class DetailsPage extends StatefulWidget {
   final Todo todo;
@@ -43,13 +44,7 @@ class _DetailsPageState extends State<DetailsPage> {
             children: [
               Align(
                 alignment: Alignment.topLeft,
-                child: Text(
-                  'Title'.toUpperCase(),
-                  style: const TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
+                child: CustomText(text: 'Title'.toUpperCase()),
               ),
               const SizedBox(height: 10),
               Align(
@@ -62,11 +57,7 @@ class _DetailsPageState extends State<DetailsPage> {
               const SizedBox(height: 10),
               Align(
                 alignment: Alignment.topLeft,
-                child: Text(
-                  'Description'.toUpperCase(),
-                  style: const TextStyle(
-                      fontSize: 20, fontWeight: FontWeight.bold),
-                ),
+                child: CustomText(text: 'Description'.toUpperCase()),
               ),
               const SizedBox(height: 10),
               Expanded(
@@ -159,11 +150,7 @@ class _DetailsPageState extends State<DetailsPage> {
                               );
                             });
                       },
-                      child: Text(
-                        'Update'.toUpperCase(),
-                        style: const TextStyle(
-                            fontSize: 18, fontWeight: FontWeight.bold),
-                      ),
+                      child: CustomText(text: 'Update'.toUpperCase()),
                     ),
                   ),
                 ],
